@@ -1,0 +1,58 @@
+nav{
+    padding:0 32px;
+}
+
+.btn-outline-success{
+    color:chocolate;
+    border-color:chocolate;
+}
+
+.btn-outline-success:hover{
+    background-color: chocolate;
+    color:white;
+    border-color:chocolate;
+
+}
+
+footer{
+    background: #19110b;
+    color:white;
+    font-size:14px;
+}
+
+.first-row{
+    border-bottom: 1px solid #392d23;
+}
+
+.second-row a{
+    color:white;
+    text-decoration:none;
+}
+
+.col{
+    padding-bottom:1rem;
+}
+
+.mobile-footer{
+    border-top: 1px solid #392d23;
+    display:none;
+}
+
+
+@media screen and (max-width:48rem){
+    .first-row{
+        text-align:center;
+    }
+
+    .second-row{
+        padding:0 2rem;
+    }
+
+    .mobile-footer{
+        display:block; /* turn display back to block (default)*/
+    }
+
+    .flag{
+        display:none;
+    }
+}
